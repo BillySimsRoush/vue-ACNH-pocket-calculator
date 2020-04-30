@@ -1,0 +1,93 @@
+[
+ {
+   "critterNumber": 13,
+   "name": "Moth",
+   "sellPrice": 130,
+   "timeOfYear": "N：All YearS：All Year",
+   "timeOfDay": "7pm ~ 4am"
+ },
+ {
+   "critterNumber": 25,
+   "name": "Wasp",
+   "sellPrice": 2500,
+   "timeOfYear": "N：All YearS：All Year",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 37,
+   "name": "Mole cricket",
+   "sellPrice": 500,
+   "timeOfYear": "N：Nov ~ MayS：May ~ Nov",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 50,
+   "name": "Dung beetle",
+   "sellPrice": 3000,
+   "timeOfYear": "N：Dec ~ FebS：June ~ Aug",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 67,
+   "name": "Walking leaf",
+   "sellPrice": 600,
+   "timeOfYear": "N：July ~ SeptS：Jan ~ Mar",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 68,
+   "name": "Bagworm",
+   "sellPrice": 600,
+   "timeOfYear": "N：All YearS：All Year",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 70,
+   "name": "Hermit crab",
+   "sellPrice": 1000,
+   "timeOfYear": "N：All YearS：All Year",
+   "timeOfDay": "7pm ~ 8am"
+ },
+ {
+   "critterNumber": 71,
+   "name": "Wharf roach",
+   "sellPrice": 200,
+   "timeOfYear": "N：All YearS：All Year",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 74,
+   "name": "Flea",
+   "sellPrice": 70,
+   "timeOfYear": "N：Apr ~ novS：Oct ~ May",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 75,
+   "name": "Snail",
+   "sellPrice": 250,
+   "timeOfYear": "N：All YearS：All Year",
+   "timeOfDay": "All day (Rainy days only)"
+ },
+ {
+   "critterNumber": 76,
+   "name": "Pill bug",
+   "sellPrice": 250,
+   "timeOfYear": "N：Sept ~ JuneS：Mar ~ Dec",
+   "timeOfDay": "11pm ~ 4pm"
+ },
+ {
+   "critterNumber": 77,
+   "name": "Centipede",
+   "sellPrice": 300,
+   "timeOfYear": "N：Sept ~ JuneS：Mar ~ Dec",
+   "timeOfDay": "4pm ~ 11am"
+ },
+ {
+   "critterNumber": 78,
+   "name": "Spider",
+   "sellPrice": 600,
+   "timeOfYear": "N：All YearS：All Year",
+   "timeOfDay": "7pm ~ 8am"
+ }
+]

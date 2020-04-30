@@ -1,0 +1,58 @@
+[
+ {
+   "critterNumber": 49,
+   "name": "Blue weevil beetle",
+   "sellPrice": 800,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 54,
+   "name": "Goliath beetle",
+   "sellPrice": 8000,
+   "timeOfYear": "N：June ~ SeptS：Dec ~ Mar",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 59,
+   "name": "Cyclommatus stag",
+   "sellPrice": 8000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 60,
+   "name": "Golden stag",
+   "sellPrice": 12000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 61,
+   "name": "Giraffe stag",
+   "sellPrice": 12000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 63,
+   "name": "Horned atlas",
+   "sellPrice": 8000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 64,
+   "name": "Horned elephant",
+   "sellPrice": 8000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 65,
+   "name": "Horned hercules",
+   "sellPrice": 12000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "5pm ~ 8am"
+ }
+]

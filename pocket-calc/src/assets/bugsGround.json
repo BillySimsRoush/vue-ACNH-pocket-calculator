@@ -1,0 +1,79 @@
+[
+ {
+   "critterNumber": 16,
+   "name": "Long locust",
+   "sellPrice": 200,
+   "timeOfYear": "N：Apr ~ NovS：Jan ~ May, Oct ~ Dec",
+   "timeOfDay": "8am ~ 7pm"
+ },
+ {
+   "critterNumber": 17,
+   "name": "Migratory Locust",
+   "sellPrice": 600,
+   "timeOfYear": "N：Aug ~ NovS：Feb ~ May",
+   "timeOfDay": "8am ~ 7pm"
+ },
+ {
+   "critterNumber": 18,
+   "name": "Rice grasshopper",
+   "sellPrice": 400,
+   "timeOfYear": "N：Aug ~ NovS：Feb ~ May",
+   "timeOfDay": "8am ~ 7pm"
+ },
+ {
+   "critterNumber": 19,
+   "name": "Grasshopper",
+   "sellPrice": 160,
+   "timeOfYear": "N：July ~ SeptS：Jan ~ Mar",
+   "timeOfDay": "8am ~ 5pm"
+ },
+ {
+   "critterNumber": 20,
+   "name": "Cricket",
+   "sellPrice": 130,
+   "timeOfYear": "N：Sept ~ NovS：Mar ~ May",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 21,
+   "name": "Bell cricket",
+   "sellPrice": 430,
+   "timeOfYear": "N：Sept ~ OctS：Mar ~ Apr",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 44,
+   "name": "Tiger beetle",
+   "sellPrice": 1500,
+   "timeOfYear": "N：Feb ~ OctS：Jan ~ Apr, Aug ~ Dec",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 51,
+   "name": "Earth-boring dung beetle",
+   "sellPrice": 300,
+   "timeOfYear": "N：July ~ SeptS：Jan ~ Mar",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 69,
+   "name": "Ant",
+   "sellPrice": 80,
+   "timeOfYear": "N：All YearS：All Year",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 79,
+   "name": "Tarantula",
+   "sellPrice": 8000,
+   "timeOfYear": "N：Nov ~ AprS：May ~ Oct",
+   "timeOfDay": "7pm ~ 4am"
+ },
+ {
+   "critterNumber": 80,
+   "name": "Scorpion",
+   "sellPrice": 8000,
+   "timeOfYear": "N：May ~ OctS：Nov ~ Apr",
+   "timeOfDay": "7pm ~ 4am"
+ }
+]

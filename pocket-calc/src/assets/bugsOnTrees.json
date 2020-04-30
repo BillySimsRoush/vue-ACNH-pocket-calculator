@@ -1,0 +1,107 @@
+[
+ {
+   "critterNumber": 14,
+   "name": "Atlas moth",
+   "sellPrice": 3000,
+   "timeOfYear": "N：Apr ~ SeptS：Jan ~ Mar, Oct ~ Dec",
+   "timeOfDay": "7pm ~ 4am"
+ },
+ {
+   "critterNumber": 26,
+   "name": "Brown cicada",
+   "sellPrice": 250,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "8am ~ 5pm"
+ },
+ {
+   "critterNumber": 27,
+   "name": "Robust cicada",
+   "sellPrice": 300,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "8am ~ 5pm"
+ },
+ {
+   "critterNumber": 28,
+   "name": "Giant cicada",
+   "sellPrice": 500,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "8am ~ 5pm"
+ },
+ {
+   "critterNumber": 29,
+   "name": "Walker cicada",
+   "sellPrice": 400,
+   "timeOfYear": "N：Aug ~ SeptS：Feb ~ Mar",
+   "timeOfDay": "8am ~ 5pm"
+ },
+ {
+   "critterNumber": 30,
+   "name": "Evening cicada",
+   "sellPrice": 550,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "4am ~ 8am, 4pm ~ 7pm"
+ },
+ {
+   "critterNumber": 31,
+   "name": "Cicada shell",
+   "sellPrice": 10,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 52,
+   "name": "Scarab beetle",
+   "sellPrice": 10000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "11pm ~ 8am"
+ },
+ {
+   "critterNumber": 53,
+   "name": "Drone beetle",
+   "sellPrice": 200,
+   "timeOfYear": "N：June ~ AugS：Dec ~ Feb",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 55,
+   "name": "Saw stag",
+   "sellPrice": 2000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 56,
+   "name": "Miyama stag",
+   "sellPrice": 1000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "All day"
+ },
+ {
+   "critterNumber": 57,
+   "name": "Giant stag",
+   "sellPrice": 10000,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "11pm ~ 8am"
+ },
+ {
+   "critterNumber": 58,
+   "name": "Rainbow stag",
+   "sellPrice": 6000,
+   "timeOfYear": "N：June ~ SeptS：Jan ~ Mar, Dec",
+   "timeOfDay": "7pm ~ 8am"
+ },
+ {
+   "critterNumber": 62,
+   "name": "Horned dynastid",
+   "sellPrice": 1350,
+   "timeOfYear": "N：July ~ AugS：Jan ~ Feb",
+   "timeOfDay": "5pm ~ 8am"
+ },
+ {
+   "critterNumber": 66,
+   "name": "Walking stick",
+   "sellPrice": 600,
+   "timeOfYear": "N：July ~ NovS：Jan ~ May",
+   "timeOfDay": "4am ~ 8am, 5pm ~ 7pm"
+ }
+]
