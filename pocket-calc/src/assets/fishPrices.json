@@ -1,13 +1,5 @@
 [
- {
-   "critterNumber": "critterNumber",
-   "Fish": "Fish",
-   "Location": "Location",
-   "shadowSize": "shadowSize",
-   "Value": "Value",
-   "Time": "Time",
-   "month": "month"
- },
+
  {
    "critterNumber": "1",
    "Fish": "Bitterling",

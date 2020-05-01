@@ -1,18 +1,28 @@
 <template>
   <div id="app">
 
-    <fish/>
+    <pocket/>
   </div>
 </template>
 
 <script>
+import Pocket     from './components/Pocket.vue'
 
-import Fish       from './components/Fish.vue'
+
 export default {
   name: 'App',
   components: {
-    Fish
+    Pocket,
+  },
+  data(){
+    return{
+
+    }
+  },
+  methods:{
+
   }
+  
 }
 </script>
 
@@ -24,6 +34,9 @@ export default {
   text-align: center;
   color: var(--black-bg);
   margin-top: 60px;
+
+
+
 }
 :root{
   --black-bg: #39383d;
