@@ -1,7 +1,7 @@
 <template>
   <div id="allTheFish">
     <h1>{{title}}</h1>
-      <div class="aFish" v-for='fish in data' :key='fish.id '>
+      <div class="aFish" v-for='fish in filteredData' :key='fish.id '>
         <!-- <img :src="../assets/fishPics/NH-Icon-seabass.png" alt=""> -->
         <!-- <img class='photo' src= require("photoLocation + fish.Fish.toLowerCase() + '.png' ")   /> -->
         <!-- <img :src='photoLocation + fish.Fish.toLowerCase().replace(" ", "") + photoEnd'  class="photo"> -->
@@ -26,7 +26,6 @@ export default {
     },
     data(){
         return{
-        
         photoLocation: '@/assets/fishPics/NH-Icon-',
         photoEnd: '.png',
         pocketFish:[]
@@ -44,11 +43,15 @@ export default {
     },
     computed:{
       filteredData(){
-        const anItem = new RegExp(this.search, 'i')
-        return this.data.filter(data =>data.Fish.match(anItem))
- 
+        const filter = new RegExp(this.search, 'i')
+        return this.data.filter(data =>data.Fish.match(filter))
+      },
 
-      }
+
+
+
+
+      
     }
 
 }

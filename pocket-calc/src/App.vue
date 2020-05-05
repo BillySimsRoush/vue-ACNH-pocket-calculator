@@ -1,25 +1,50 @@
 <template>
   <div id="app">
+    <search v-on:filteredData="handleSearch" :search='search'/>
 
-    <pocket/>
+    <pocket v-bind:myPocket='myPocket' />
+
+    <item
+      title="Northern Fish"
+      v-bind:data="allFishes"
+      v-bind:search="search"
+      @clickedFish="getFish($event)"
+    />
+    <item title="Bugs" v-bind:data="allBugs" v-bind:search="search" />
   </div>
 </template>
 
 <script>
-import Pocket     from './components/Pocket.vue'
+import Pocket     from '@/components/Pocket.vue'
+import Item       from '@/components/Item.vue'
+import Search     from '@/components/Search.vue'
+// data++++++++++++++++++++++++++++++++++++++++++
+import fishes from "@/assets/fishPrices.json"
 
 
 export default {
   name: 'App',
   components: {
     Pocket,
+    Item,
+    Search
   },
   data(){
     return{
+      allFishes: fishes,
+      allBugs: [],
+      myPocket: [],
+      search: ''
 
     }
   },
   methods:{
+      getFish(e) {
+        this.myPocket.push(e);
+    },
+    handleSearch(query) {
+      this.search = query;
+    }
 
   }
   

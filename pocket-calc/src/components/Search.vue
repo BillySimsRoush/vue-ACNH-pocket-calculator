@@ -9,6 +9,12 @@
 <script>
 export default {
     name:'Search',
+    data(){
+        return{
+            search:''
+        }
+    },
+
     methods: {
     filteredData() {
         const query = document.getElementById('search').value;

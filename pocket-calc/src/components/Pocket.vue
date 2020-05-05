@@ -1,79 +1,100 @@
 <template>
   <div class="container">
-    <search v-on:filteredData="handleSearch" />
-      <h1 >{{myPocket}}</h1>
-
-      <!-- <h1 v-if="myPocket<1" @clickedFish='getFish($event)'>Your pocket is empty</h1>
-      <div v-else>
-          <h1>You have $   in your pocket</h1>
-          <div class='item' v-for="item in myPocket" :key='item.id' v-on:clickedFish='getFish($event)'> 
-
-              <h1>{{item.name}}</h1>
-          </div>
-          
-
-      </div> -->
-      <item title='Northern Fish'
-      v-bind:data='allFishes'
-      v-bind:search="search"
-      @clickedFish='getFish(fish)'/>
-      <item title='Bugs'
-      v-bind:data='allBugs'
-      v-bind:search="search"/>
-
+    
+    <!--<h1 v-for="item in myPocket" :key="item.id" v-bind="myPocket">
+          {{item.Fish}} | {{item.Value}} |{{item.quantity}} 
+        <sui-button circular icon="chevron circle right" @click="addOne(item.Fish)"/>
+    </h1>-->
+    <h1>{{pocketTotal}} Bells</h1>
+    <sui-card-group :items-per-row="6" id="theItems">
+      <sui-card v-for="item in myPocket" :key="item.id">
+        <sui-card-content>
+          <sui-image src="@/assets/fishPics/NH-Icon-tuna.png" class="right floated" />
+          <sui-card-header>{{item.Fish}}</sui-card-header>
+          <sui-card-meta>{{item.Value}} Bells </sui-card-meta>
+          <!-- <sui-card-description>Elliot requested permission to view your contact details</sui-card-description> -->
+        </sui-card-content>
+        <sui-card-content extra>
+          <sui-container text-align="center">
+            <sui-button-group>
+              <sui-button basic negative
+                 icon="trash alternate outline"
+                @click="deleteItem(item.Fish)"
+              ></sui-button>
+ 
+            </sui-button-group>
+          </sui-container>
+        </sui-card-content>
+      </sui-card>
+    </sui-card-group>
   </div>
 </template>
 
 <script>
 //components++++++++++++++++++++++++++++++++++
-import Item from '@/components/Item.vue'
-import Search     from '@/components/Search.vue'
 
-// data++++++++++++++++++++++++++++++++++++++++++
-import fishes from '../assets/fishPrices.json'
 
 export default {
-    name:'Pocket',
-    props:{
-    
+  name: "Pocket",
+  props:{
+    myPocket: Array,
+    search: String
+  },
+  components: {
+  },
+  data() {
+    return {
+      pocketValue: 0,
+    };
+  },  
+
+  methods: {
+    addOne(name) {
+      const index = this.myPocket.findIndex(item => item.Fish === name);
+      this.myPocket[index].quantity += 1;
+      
     },
-    components:{
-        Item,
-        Search
+    deleteItem(name) {
+      const index = this.myPocket.findIndex(item => item.Fish === name);
+      this.myPocket.splice(index, 1);
     },
-    data(){
-        return{
-            allFishes:fishes,
-            allBugs:[],
-            myPocket:[],
-        
+
+  },
+  computed: {
+      pocketTotal: function(){
+          let value = 0
+          this.myPocket.forEach(item=>{
+             let itemTotal = (item.Value.replace(',','')*1)
+             value += itemTotal
+          })
+          return value
+      },
+
+      
+        filterData(){
+            const filter = new RegExp(this.search, 'i')
+            return this.data.filter(data =>data.Fish.match(filter))
         }
-    },
-    methods:{
-        getFish(fish){
-            console.log('youMadeIt')
-            this.myPocket.push(fish)
-            
-        },
-        handleSearch(query){
-            this.search = query
-        }
 
+  
+  },
 
-    },
-    computed:{
-
-    }
-
-}
+};
 </script>
 
 <style scoped>
-.container{
-    background-color: white;
+.container {
+  background-color: white;
+  width: 1300px;
+  margin: 0 auto;
 }
-.item{
-    background-color: red;
+#theItems {
+  padding: 10px;
 }
-
+sui-button-group {
+  width: 30%;
+}
+.item {
+  background-color: red;
+}
 </style>
