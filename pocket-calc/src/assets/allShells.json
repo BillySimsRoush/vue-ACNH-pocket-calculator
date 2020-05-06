@@ -1,0 +1,54 @@
+[
+    {
+        "name":"Porceletta",
+        "value": 30
+    },
+    {
+        "name":"Cowries",
+        "value": 60
+    },
+    {
+        "name":"Manila Clam",
+        "value": 100
+    },
+    {
+        "name":"Sand Dollar ",
+        "value": 120
+    },
+    {
+        "name":"Sea Snail",
+        "value": 180
+    },
+    {
+        "name":"Venus Comb ",
+        "value": 300
+    },
+    {
+        "name":"White Scallop",
+        "value": 450
+    },
+    {
+        "name":"Oyster Shell ",
+        "value": 450
+    },
+    {
+        "name":"Coral",
+        "value": 500
+    },
+    {
+        "name":"Scallop Shell",
+        "value": 600
+    },
+    {
+        "name":"Conch",
+        "value": 700
+    },
+    {
+        "name":"Giant Clam",
+        "value": 900
+    },
+    {
+        "name":"Pearl Oyster",
+        "value": 1200
+    }
+]

@@ -26,9 +26,10 @@ export default {
 
 <style>
 #search {
-    width:100%;
+    width:33%;
     font-size:24px;
     font-family: 'Roboto Condensed', sans-serif;
-    padding:10px;
+    padding:15px;
+    border-radius: 35px;
 }
 </style>
