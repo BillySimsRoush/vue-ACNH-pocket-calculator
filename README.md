@@ -1,5 +1,6 @@
 # Animal Crossing New Horizons - Pocket Calculator 
-    The goal of this app was to make a application that will look at add all of the items in your pocket in real time so you know how much money you would make selling at the shop.
+    The goal of this app was to make a application that will look at add all of the items in your
+    pocket in real time so you know how much money you would make selling at the shop.
 
 ## Built With
  - Node.js
@@ -17,10 +18,9 @@ npm run serve
 ```
 
 ## Connect with me:
-<!-- [<img align = "left" alt="Billy Sims-Roush | Twitter" width = "22px" src='@assets/iconfinder_Circled_Twitter.png' /> ][twitter] -->
-[<img align = "left" alt="Billy Sims-Roush | Instagram" width = "22px" src="@/pocket-calc/src/assets/sm-icons/iconfinder_Circled_Instagram.png" /> ][instagram]
-
-[<img align = "left" alt="Billy Sims-Roush | Linkedin" width = "22px" src="@/pocket-calc/src/assets/iconfinder_Circled_Linkedin.png"/>][linkedin]
+[<img align = "left" alt="Billy Sims-Roush | Twitter" width = "22px" src='https://cdn.icon-icons.com/icons2/1/PNG/256/social_Twitter_38.png' /> ][twitter]
+[<img align = "left" alt="Billy Sims-Roush | Instagram" width = "22px" src="https://cdn.icon-icons.com/icons2/1/PNG/256/social_instagram_3.png" /> ][instagram]
+[<img align = "left" alt="Billy Sims-Roush | Linkedin" width = "22px" src="https://cdn.icon-icons.com/icons2/1/PNG/256/sociallinkedin_member_30.png"/>][linkedin]
 
 
 
