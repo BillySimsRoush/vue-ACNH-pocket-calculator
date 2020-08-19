@@ -11,11 +11,16 @@
 ```
 npm install
 ```
+To run the build
+```
+npm run serve
+```
 
 ## Connect with me:
 <!-- [<img align = "left" alt="Billy Sims-Roush | Twitter" width = "22px" src='@assets/iconfinder_Circled_Twitter.png' /> ][twitter] -->
-[<img align = "left" alt="Billy Sims-Roush | Instagram" width = "22px" src="@assets/iconfinder_Circled_Instagram.png" /> ][instagram]
-<!-- [<img align = "left" alt="Billy Sims-Roush | Linkedin" width = "22px" src="@/pocket-calc/src/assets/iconfinder_Circled_Linkedin.png"/>][linkedin] -->
+[<img align = "left" alt="Billy Sims-Roush | Instagram" width = "22px" src="@/pocket-calc/src/assets/sm-icons/iconfinder_Circled_Instagram.png" /> ][instagram]
+
+[<img align = "left" alt="Billy Sims-Roush | Linkedin" width = "22px" src="@/pocket-calc/src/assets/iconfinder_Circled_Linkedin.png"/>][linkedin]
 
 
 
