@@ -21,7 +21,7 @@ npm run serve
 
 ```
 
-![](acnh.gif)
+![](https://github.com/BillySimsRoush/acnh.gif)
 
 
 
