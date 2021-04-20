@@ -1,6 +1,8 @@
 # Animal Crossing New Horizons - Pocket Calculator
 The goal of this app was to make a application that will look at add all of the items in your pocket in real time so you know how much money you would make selling at the shop.
 
+<img src='https://media.giphy.com/media/fARifTG61BCrEJKmOx/giphy.gif' />
+
 ### Challanges Faced
 - There was no ACNH API at the time when I was working on the project so I had to find prices, names and resources from different websites
 
